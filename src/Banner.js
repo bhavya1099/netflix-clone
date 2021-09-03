@@ -2,7 +2,7 @@ import axios from "./axios";
 import React,{useEffect, useState} from "react";
 import requests from './requests';
 import "./banner.css";
-const base_url = "https://image.tmdb.org/t/p/original";
+// const base_url = "https://image.tmdb.org/t/p/original";
 function Banner(title){
     const [movie,setMovie] = useState();
     useEffect(()=>{
